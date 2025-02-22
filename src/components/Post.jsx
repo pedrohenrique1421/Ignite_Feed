@@ -1,3 +1,5 @@
+import { Coments } from "./Comment";
+
 import styles from "./Post.module.css";
 
 export function Post() {
@@ -38,6 +40,8 @@ export function Post() {
                     <textarea placeholder="Escreva seu comentário"></textarea>
                     <button type="submit">Publicar</button>
                 </form>
+
+                <div className={styles.commentList}></div>
             </main>
         </aside>
     );
