@@ -1,6 +1,6 @@
 {
     "arrowParens": "avoid",
-    "bracketSpacing": false,
+    "bracketSpacing": true,
     "endOfLine": "lf",
     "htmlWhitespaceSensitivity": "css",
     "insertPragma": false,
@@ -9,7 +9,7 @@
     "jsxBracketSameLine": false,
     "jsxSingleQuote": false,
     "printWidth": 80,
-    "proseWrap": "preserve",
+    "proseWrap": "always",
     "quoteProps": "as-needed",
     "requirePragma": false,
     "semi": true,
@@ -20,5 +20,5 @@
     "embeddedLanguageFormatting": "auto",
     "vueIndentScriptAndStyle": false,
     "experimentalTernaries": false,
-    "objectWrap": "collapse"
+    "objectWrap": "preserve"
   }
