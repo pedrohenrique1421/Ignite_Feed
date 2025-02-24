@@ -1,6 +1,6 @@
-.SideBar{
-    width: 256px;
-    background: var(--gray-800);
+aside.SideBar{
+    width: 256px !important;
+    background: var(--green-600);
     border-radius: 8px;
     overflow: hidden;
     display: flex;

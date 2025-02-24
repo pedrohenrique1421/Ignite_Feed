@@ -3,6 +3,7 @@
     border-radius: 8px;
     overflow: hidden;
     padding: 40px;
+    width: 832px;
 }
 
 .Post + .Post {
@@ -16,7 +17,7 @@
     margin-top: 1.5rem;
 }
 
-.Post > main p {
+.Post > main > p {
     line-height: 1.6;
     width: 47rem;
     font-size: 1rem;
